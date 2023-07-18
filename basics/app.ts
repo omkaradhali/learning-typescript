@@ -5,7 +5,7 @@ enum Role {
   DEV = "DEV",
 }
 
-// Typescripts representation of Object
+// Typescripts representation of Object (good practice to define it this way)
 const person: {
   name: string;
   age: number;
