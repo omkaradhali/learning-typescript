@@ -1,19 +1,28 @@
-console.log("Hello World!!");
-
-function add(n1: number, n2: number, printResult: boolean) {
-  if (printResult) {
-    console.log(n1 + n2);
-  }
-  return n1 + n2;
+enum Role {
+  ADMIN = 5,
+  READ_ONLY = 100,
+  AUTHOR = 999,
+  DEV = "DEV",
 }
 
-const number1: number = 5; // This is redundant as typescript assigns type by inference.
-const number2 = 2.8;
+// Typescripts representation of Object
+const person: {
+  name: string;
+  age: number;
+  hobbies: string[];
+  role: Role;
+  unique_id: [number, string]; //tuple
+} = {
+  name: "max",
+  age: 30,
+  hobbies: ["sports", "cooking"],
+  role: Role.ADMIN,
+  unique_id: [1, "random_name"],
+};
 
-// This is allowed
-let number3: number;
-number3 = 6;
+console.log(person.name);
 
-const printResult = true;
-
-const result = add(number1, number2, printResult);
+for (const hobby of person.hobbies) {
+  console.log(hobby.toUpperCase());
+  // console.log(hobby.map())  This will error out and typescript will throw an error.
+}
