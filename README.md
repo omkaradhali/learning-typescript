@@ -11,3 +11,9 @@
 7. Enum enum { NEW, OLD } Added by TpeScript: Automatically enumerated global constant identifiers.
 8. Any - Any kind of value.
 9. Unknown
+
+## Let vs Var
+
+1. Let is block scoped var is function scoped.
+2. If we declare let inside of if statement then it will be accessible only in that block. If we declare var inside if statement then it will be accessible globally.
+3. let tightens the scope that var missed.
