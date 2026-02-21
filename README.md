@@ -2,8 +2,7 @@
 
 ### Objective
 
-Primary objective is to get up to speed with Typescript. Will probably develop few front end React projects as well as backend.
-Not entirely sure about the different projects I will dive into, but I will try to consistently work on this bit by bit.
+Primary objective is to get up to speed with Typescript. Will probably develop few front end React projects as well as backend. Not entirely sure about the different projects I will dive into, but I will try to consistently work on this bit by bit.
 
 ## Core Types: All core primitive types in TypeScript are all lowercase.
 
