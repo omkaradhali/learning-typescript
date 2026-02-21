@@ -1,5 +1,10 @@
 ## Learning Typescript
 
+### Objective
+
+Primary objective is to get up to speed with Typescript. Will probably develop few front end React projects as well as backend.
+Not entirely sure about the different projects I will dive into, but I will try to consistently work on this bit by bit.
+
 ## Core Types: All core primitive types in TypeScript are all lowercase.
 
 1. number (1, 1.5) - All number no differentiation between integers and floats
